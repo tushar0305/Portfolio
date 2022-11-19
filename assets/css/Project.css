@@ -1,0 +1,501 @@
+.project-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top:2em;
+    padding-left: 10em;
+}
+
+.project {
+    font-family: 'Poppins', sans-serif;
+    color: #2AAACB;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 120px;
+    font-size: 30px;
+    z-index: -1000;
+}
+
+@media screen and (max-width: 500px) {
+    .project {
+        margin-top: 400px;
+        margin-left: -130px;
+        font-size: 25px;
+    }
+}
+
+/*Project one*/
+.project-main {
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    margin-top: 80px;
+    grid-auto-flow: dense;
+    cursor: pointer;
+}
+
+.img1-p {
+    justify-self: end;
+}
+
+.img1-p img {
+    height: 330px;
+    width: 500px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.img1-p img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 25px black;
+}
+
+
+
+.content-p {
+    color: black;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.content-p .f1 {
+    display: flex;
+    align-items: right;
+    color: #3498db;
+    justify-content: flex-end;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.content-p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.content-p .p-name1 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    font-family: 'Spartan', sans-serif;
+    transition: .3s;
+    color: #fff;
+}
+
+.content-p .p-name1:hover {
+    color: #2AAACB;
+}
+
+.content-p .block1 {
+    background-color: #191C29;
+    color: #fff;
+    box-shadow: 0px 0px 15px black;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: -50px;
+    
+}
+
+.content-p .block1 > p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.content-p .tech1 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+
+
+.content-p .p-icon {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    
+}
+
+.content-p .tech1 > img {
+    margin: 0 8px;
+    
+}
+
+.content-p .p-icon ul {
+    display: flex;
+}
+
+.content-p .p-icon ul li {
+    margin-left: -35px;
+    margin-top: -20px;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .project-main {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+    .img1-p {
+        justify-self: center;
+        margin-top: -50px;
+    }
+    .img1-p img {
+        height: 200px;
+        width: 200px;
+        
+    }
+
+    .contetn-p {
+        justify-self: center;
+    }
+
+    .content-p .f1{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .content-p .p-name1{
+        margin-top: -10px;
+        margin-right: 80px;
+        font-size:20px;
+    }
+
+    .block1 {
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .para-p1 {
+        margin-left: 70px;
+    }
+
+    .tech1 {
+        margin-right: 70px;
+    }
+
+    .p-icon {
+        margin-right: 170px;
+    }
+
+    .p-icon img {
+        height: 50px;
+    }
+}
+
+/*project two*/
+
+.project-main2 {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    margin-top: 150px;
+    grid-auto-flow: dense;
+    cursor: pointer;
+}
+
+.img1-p2 {
+    justify-self: start;
+    margin-left: -50px;
+}
+
+.img1-p2 img {
+    height: 330px;
+    width: 500px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.img1-p2 img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 25px black;
+}
+
+
+
+.content-p2 {
+    color: black;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.content-p2 .f2 {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    margin-left: -50px;
+    color: #3498db;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.content-p2 a {
+    color: inherit;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content-p2 .p-name2 {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    margin-left: -50px;
+    font-family: 'Spartan', sans-serif;
+    transition: .3s;
+}
+
+.content-p2 .p-name2:hover {
+    color: #3498db;
+}
+
+.content-p2 .p-name2 span {
+    background: #3498db;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: -5px;
+    border-radius: 10px;
+}
+
+.content-p2 .block2 {
+    background-color: #191C29;
+    color: #fff;
+    box-shadow: 0px 0px 15px black;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: -50px;
+    
+}
+
+.content-p2 .block2 > p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-p2 .tech2 {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    margin-left: -50px;
+}
+
+.content-p2 .tech2 > img {
+    margin: 0 8px;
+}
+
+.content-p2 .p-icon2 {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    margin-left: -50px;
+}
+
+.content-p2 .p-icon2 ul {
+    display: flex;
+    margin-left: -40px;
+}
+
+.content-p2 .p-icon2 ul li {
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 500px) {
+    .project-main2 {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+    .img1-p2 {
+        justify-self: center;
+        margin-top: -50px;
+    }
+    .img1-p2 img {
+        display: none;
+    }
+
+    .content-p2 .f2{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .content-p2 .p-name2{
+        margin-top: -10px;
+        font-size:20px;
+        justify-content: center;
+
+    }
+
+    .block2 {
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .para-p2 {
+        margin-left: 70px;
+    }
+
+    .content-p2 .tech2 {
+        
+        margin: 15px 50px;
+    }
+
+    .p-icon2 img {
+        height: 50px;
+        margin-left: 200px;
+    }
+}
+
+/*Project three*/
+.project-main3 {
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    margin-top: 80px;
+    margin-top: 150px;
+    grid-auto-flow: dense;
+    cursor: pointer;
+}
+
+.img1-p3 {
+    justify-self: end;
+    
+}
+
+.img1-p3 img {
+    height: 330px;
+    width: 500px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.img1-p3 img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 25px black;
+}
+
+
+
+.content-p3 {
+    color: black;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.content-p3 .f3 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    color: #3498db;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.content-p3 a {
+    color: inherit;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content-p3 .p-name3 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    font-family: 'Spartan', sans-serif;
+    transition: .3s;
+}
+
+.content-p3 .p-name3:hover {
+    color: #3498DB;
+}
+
+.content-p3 .block3 {
+    background-color: #191C29;
+    color: #fff;
+    box-shadow: 0px 0px 15px black;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: -50px;
+    
+}
+
+.content-p3 .block3 > p {
+  
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-p3 .tech3 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+.content-p3 .p-icon3 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+.content-p3 .p-icon3 ul {
+    display: flex;
+}
+
+.content-p3 .p-icon3 ul li {
+    margin-left: -35px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 500px) {
+    .project-main3 {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+    .img1-p3 {
+        justify-self: center;
+        margin-top: -50px;
+    }
+    .img1-p3 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .content-p3 .f3{
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+
+    .p-name3 {
+        margin-top: -10px;
+        margin-right: 80px;
+        font-size:20px;
+    }
+
+    .block3 {
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .para-p3 {
+        margin-left: 70px;
+    }
+
+    .tech3 {
+        margin-right: 140px;
+    }
+
+    .p-icon3 {
+        margin-right: 160px;
+    }
+
+    .p-icon3 img {
+        height: 50px;
+    }
+}

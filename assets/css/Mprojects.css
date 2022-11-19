@@ -1,0 +1,91 @@
+/*More Projects*/
+.mpro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mpro .mpro-head {
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    margin-top: 150px;
+    color: #3498DB;
+}
+
+/*Blocks*/
+
+.main-mp {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .main-mp {
+        grid-template-columns: 1fr;
+    }
+}
+
+.block-mp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .block-mp {
+        grid-template-columns: 1fr;
+    }
+}
+    
+
+.block-mp1 {
+    background: #191C29;
+    color: #fff;
+    padding: 2em;
+    transition: .3s;
+    border-radius: 0px;
+    font-family: roboto, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.block-mp1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+
+@media screen and (max-width: 500px) {
+    .block-mp1 {
+        margin: 0px 40px;
+    }
+}
+
+.block-mp1 h2 {
+    color: #fff;
+    transition: .3s;
+}
+
+.block-mp1 h2:hover {
+    color: #3498DB;
+}
+
+.block-mp1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.block-mp1 span {
+    background-color: #3498DB;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-lm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
