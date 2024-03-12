@@ -1,4 +1,4 @@
-.ui-head {
+.cert-head {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.ui-project {
+.cert-project {
     font-family: 'Poppins', sans-serif;
     color: #3498DB;
     margin-top: 120px;
@@ -17,13 +17,13 @@
 }
 
 @media screen and (max-width: 500px) {
-    .ui-project {
+    .cert-project {
         margin-left: -120px;
         font-size: 25px;
     }
 }
 
-.ui-sq {
+.cert-sq {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 800px;
@@ -32,49 +32,33 @@
 }
 
 @media screen and (max-width: 500px) {
-    .ui-sq {
+    .cert-sq {
         grid-template-columns: 1fr;
     }
 }
 
-.ui-1 {
-    height: 320px;
-    width: 300px;
+.cert-1 {
+    height: 250px;
+    width: 250px;
     margin-top: 70px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     justify-self: center;
 }
 
 @media screen and (max-width: 500px) {
-    .ui-1 {
+    .cert-1 {
         margin-top: 50px;
         margin-left: -80px;
     }
 }
-    
 
-.ui-img-1 img {
+.cert-img img {
     width: 100%;
-    height: 100%px;
+    height: 230px;
+    margin-top: 5px;
 }
 
-.ui-img-2 img {
-    width: 100%;
-    height: 200px;
-}
-
-.ui-img-3 img {
-    width: 100%;
-    height: 300px;
-}
-
-.ui-img-4 img {
-    width: 100%;
-    height: 200px;
-}
-
-
-.ui-t {
+.cert-t {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -84,11 +68,11 @@
     color: #fff;
 }
 
-.ui-t:hover {
+.cert-t:hover {
     color: #3498DB;
 }
 
-.ui-t a {
+.cert-t a {
     text-decoration: none;
     color: inherit;
 }
